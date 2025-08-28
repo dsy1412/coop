@@ -5,8 +5,15 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '个人简历 | Your Name',
-  description: '欢迎访问我的在线简历，这里展示了我的专业技能、工作经验和项目成果。',
+  title: 'Shengyang (Shawn) Dong - 个人简历',
+  description: 'Shengyang (Shawn) Dong的在线简历 - Data Scientist / Full Stack Developer，专注于AI和数据科学，具有丰富的机器学习和全栈开发经验。',
+  keywords: 'Data Science, AI, Machine Learning, Full Stack Developer, Python, React, Next.js',
+  authors: [{ name: 'Shengyang (Shawn) Dong' }],
+  openGraph: {
+    title: 'Shengyang (Shawn) Dong - 个人简历',
+    description: 'Data Scientist / Full Stack Developer，专注于AI和数据科学领域',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
